@@ -1,0 +1,120 @@
+
+/* =========================
+  colors
+========================== */
+
+:root{
+    --neutral-black:hsl(0,0%,8%);
+    --neutral-400:hsl(0,0%,14%);
+    --neutral-300:hsl(0,0%,85%);
+    --neutral-200:hsl(0,0%,100%);
+
+    --active:hsl(153,71%,59%);
+    --red:hsl(0, 100%, 67%);
+
+
+ /* ==================================
+   TYPOGRAPHY
+================================== */
+
+/* =========================
+   FONT FAMILY
+========================== */
+
+--ff-space-grotesk: 'Space Grotesk', sans-serif;
+
+/* =========================
+   FONT WEIGHTS
+========================== */
+
+--fw-medium: 500;
+--fw-regular: 400;
+--fw-bold: 700;
+
+/* =========================
+   FONT SIZES
+========================== */
+
+/* Mobile 40px → Desktop 88px */
+--fs-900: clamp(2.5rem, 1.5rem + 5vw, 5.5rem);
+
+/* Mobile 32px → Desktop 48px */
+--fs-800: clamp(2rem, 1.5rem + 2vw, 3rem);
+
+/* Mobile 24px → Desktop 40px */
+--fs-750: clamp(1.5rem, 1rem + 2vw, 2.5rem);
+
+/* Mobile 20px → Desktop 24px */
+--fs-700: clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);
+
+/* Mobile 16px → Desktop 18px */
+--fs-600: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+
+--fs-500: clamp(0.875rem, 0.85rem + 0.25vw, 1rem);
+
+--fs-300: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+
+/* =========================
+   FONT 1
+   Space Grotesk Bold
+   88px / 88px
+   -2.5px
+========================== */
+
+--font-1: var(--fw-bold) var(--fs-900) / 1 var(--ff-space-grotesk);
+
+--ls-1: -0.15625rem; /* -2.5px */
+
+/* =========================
+   FONT 2
+   Space Grotesk Bold
+   48px / 56px
+   -1.5px
+========================== */
+
+--font-2: var(--fw-bold) var(--fs-800) / 1.1667 var(--ff-space-grotesk);
+
+--ls-2: -0.09375rem; /* -1.5px */
+
+
+
+/* =========================
+   FONT 3
+   Space Grotesk Bold
+   24px / 32px
+========================== */
+
+--font-3: var(--fw-bold) var(--fs-700) / 1.333 var(--ff-space-grotesk);
+
+--ls-3: -0.0625rem; /* -1px */
+
+/* =========================
+   FONT 4
+   Space Grotesk Medium
+   18px / 28px
+========================== */
+
+--font-4: var(--fw-regular) var(--fs-600) / 1.5556 var(--ff-space-grotesk);
+
+--ls-4: 1.2px;
+
+
+--font-5: var(--fw-medium) var(--fs-500) / 1.5556 var(--ff-space-grotesk);
+--ls-5: 0.1px;
+
+
+--font-6 :var(--fw-regular) var(--fs-300) / 1.5556 var(--ff-space-grotesk);
+--ls-6: 0.1px;
+// spacing
+--space-1: 0.5rem;
+--space-2: 1rem;
+--space-3: 1.5rem;
+--space-4: 2rem;
+--space-6:3rem;
+--space-8:4rem;
+--space-10:6rem;
+
+
+
+
+}
