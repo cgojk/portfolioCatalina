@@ -12,6 +12,8 @@ export default function  ProjectsDetails (props){
    imagedesktop, 
    imagemobile, 
    experience, 
+   linkto,
+   linktocode
      } = props;
     
 
@@ -50,8 +52,8 @@ export default function  ProjectsDetails (props){
                                 ))}</p>
                 </div>
                 <div className="projects__links">
-                            <Button to="#" className="button--size hover__link">project link</Button>
-                            <Button to="#" className="button--size hover__link">link code</Button>
+                            <Button to={linkto} className="button--size hover__link">project link</Button>
+                            <Button to={linktocode} className="button--size hover__link">link code</Button>
                 </div>
             
          </div>

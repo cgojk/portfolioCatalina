@@ -23,6 +23,8 @@ export default function  Projects (){
             imagedesktop={project.imagedesktop}
             imagemobile={project.imagemobile}
             experience={project.experience}
+            linkto={project.linkto}
+            linktocode={project.linktocode}
             
          />
       ))}
